@@ -1,9 +1,9 @@
 (function () {
     angular.module('app.components.infor')
-        .controller('inforController', inforController);
+        .controller('InforController', InforController);
 
-    inforController.$inject = ['$state', '$localStorage', 'messageShow', '$timeout', '$timeout'];
-    function inforController($state, $localStorage, messageShow, $timeout) {
+    InforController.$inject = ['$state', '$localStorage', 'messageShow', '$timeout', '$timeout'];
+    function InforController($state, $localStorage, messageShow, $timeout) {
 
         var vm = this;
         vm.manual_1 = false;
