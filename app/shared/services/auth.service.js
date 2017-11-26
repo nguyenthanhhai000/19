@@ -31,10 +31,13 @@ function authService($q, Restangular, appConfigs, $localStorage) {
         //     }, function (err) {
         //         deferred.reject(err);
         //     });
-        if (account.username === "admin@admin.com" && account.password === "admin") {
+        if (account.username === "13141080@student.hcmute.edu.vn" && account.password === "13141080") {
             var res = { token_type: "Bearer", access_token: "adminabc123" }
             deferred.resolve(res);
-        } else {
+        } else if (account.username === "13141080@student.hcmute.edu.vn" && account.password === "13141080"){
+        var res = { token_type: "Bearer", access_token: "adminabc123" }
+            deferred.resolve(res);}
+        else {
             var err = { data: { message: "Sai email hoặc mật khẩu!" } };
             deferred.reject(err);
         }
