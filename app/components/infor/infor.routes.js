@@ -11,7 +11,7 @@
                 controller: 'InforController',
                 controllerAs: 'vm',
                  ncyBreadcrumb: {
-                label: 'Thông tin'
+                label: 'Thông tin về Chúng tôi:'
             }
             });
     }
