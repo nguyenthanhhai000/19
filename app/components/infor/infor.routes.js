@@ -2,8 +2,8 @@
     angular.module('app.components.infor')
         .config(Infor);
 
-    Control.$inject = ['$stateProvider'];
-    function Control($stateProvider) {
+    Infor.$inject = ['$stateProvider'];
+    function Infor($stateProvider) {
         $stateProvider
             .state('index.infor', {
                 url: '/infor',
