@@ -1,6 +1,6 @@
 <div class="row">
     <div class="col-md-12">
-        <div> {{vm.connected1?'Đã kết nối' : 'Đang kết nối'}}
+        <div> {{vm.connected1?'<span style="color: red">Kết nối thành công</span>' : 'Đang kết nối'}}
         </div>
         <div ng-show="!vm.connected1 || vm.wait1" class="loader-inner" aria-hidden="true"></div>
         <br>
