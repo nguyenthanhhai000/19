@@ -1,9 +1,9 @@
 (function () {
-    angular.module('app.components.control')
-        .controller('ControlController', ControlController);
+    angular.module('app.components.infor')
+        .controller('inforController', inforController);
 
-    ControlController.$inject = ['$state', '$localStorage', 'messageShow', '$timeout', '$timeout'];
-    function ControlController($state, $localStorage, messageShow, $timeout) {
+    inforController.$inject = ['$state', '$localStorage', 'messageShow', '$timeout', '$timeout'];
+    function inforController($state, $localStorage, messageShow, $timeout) {
 
         var vm = this;
         vm.manual_1 = false;
