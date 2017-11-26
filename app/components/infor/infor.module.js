@@ -1,3 +1,3 @@
 (function () {
-    angular.module('app.components.control', []);
+    angular.module('app.components.infor', []);
 })();
