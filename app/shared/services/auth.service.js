@@ -34,7 +34,7 @@ function authService($q, Restangular, appConfigs, $localStorage) {
         if (account.username === "13141080@student.hcmute.edu.vn" && account.password === "13141080") {
             var res = { token_type: "Bearer", access_token: "adminabc123" }
             deferred.resolve(res);
-        } else if (account.username === "13141080@student.hcmute.edu.vn" && account.password === "13141080"){
+        } else if (account.username === "13141062@student.hcmute.edu.vn" && account.password === "13141062"){
         var res = { token_type: "Bearer", access_token: "adminabc123" }
             deferred.resolve(res);}
         else {
