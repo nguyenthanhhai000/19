@@ -1,9 +1,9 @@
 (function () {
-    angular.module('app.components.control')
-        .controller('ControlControllerBak', ControlController);
+    angular.module('app.components.infor')
+        .controller('InforControllerBak', InforController);
 
-    ControlController.$inject = ['$state', '$localStorage', 'messageShow', '$timeout', 'WatsonIoT', '$timeout'];
-    function ControlController($state, $localStorage, messageShow, $timeout, WIoT, $timeout) {
+    InforController.$inject = ['$state', '$localStorage', 'messageShow', '$timeout', 'WatsonIoT', '$timeout'];
+    function InforController($state, $localStorage, messageShow, $timeout, WIoT, $timeout) {
 
         var vm = this;
         vm.manual = true;
