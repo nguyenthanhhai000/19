@@ -1,17 +1,17 @@
 (function () {
-    angular.module('app.components.control')
-        .config(Control);
+    angular.module('app.components.infor')
+        .config(Infor);
 
     Control.$inject = ['$stateProvider'];
     function Control($stateProvider) {
         $stateProvider
-            .state('index.control', {
-                url: '/control',
-                templateUrl: 'app/components/control/control.html',
-                controller: 'ControlController',
+            .state('index.infor', {
+                url: '/infor',
+                templateUrl: 'app/components/infor/infor.html',
+                controller: 'InforController',
                 controllerAs: 'vm',
                  ncyBreadcrumb: {
-                label: 'Điều khiển'
+                label: 'Thông tin'
             }
             });
     }
